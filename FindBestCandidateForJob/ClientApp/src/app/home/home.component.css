@@ -1,0 +1,24 @@
+.cardheaderstyle {
+    height: 100px;
+    background-color: #394F63;
+  }
+  
+  .labelstyle {
+    border: none !important;
+    background-color: #BDC5C8 !important;
+    border-bottom: 1px solid #BDC5C8 !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    color: #394F63;
+    font-weight: bold;
+  }
+  
+  .cardbodystyle {
+    padding: 30px !important;
+  }
+  
+  .inputgroupstyle {
+    margin-top: 15px;
+  }
+  

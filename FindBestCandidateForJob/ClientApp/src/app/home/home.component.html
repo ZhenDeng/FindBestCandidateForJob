@@ -1,0 +1,29 @@
+<div class="col-md-6 col-sm-12" *ngFor="let job of jobs">
+  <div class="well well-lg wellpadding">
+    <div class="card">
+      <div class="card-header cardheaderstyle"></div>
+      <div class="card-body cardbodystyle">
+        <div class="input-group input-group-sm">
+          <span class="input-group-addon labelstyle" id="sizing-addon1">Job ID:</span>
+          <input class="form-control labelstyle" name="jobId" aria-describedby="sizing-addon1" value="{{job.jobId}}" disabled>
+        </div>
+        <div class="input-group input-group-sm inputgroupstyle">
+          <span class="input-group-addon labelstyle" id="sizing-addon1">Job Name:</span>
+          <input class="form-control labelstyle" name="jobName" aria-describedby="sizing-addon1" value="{{job.name}}" disabled>
+        </div>
+        <div class="input-group input-group-sm inputgroupstyle">
+          <span class="input-group-addon labelstyle" id="sizing-addon1">Company:</span>
+          <input class="form-control labelstyle" name="jobCompany" aria-describedby="sizing-addon1" value="{{job.company}}" disabled>
+        </div>
+        <div class="input-group input-group-sm inputgroupstyle">
+          <span class="input-group-addon labelstyle" id="sizing-addon1">Required Skills:</span>
+          <input class="form-control labelstyle" name="jobSkills" aria-describedby="sizing-addon1" value="{{job.skills}}" disabled>
+        </div>
+        <div class="input-group input-group-sm inputgroupstyle">
+          <span class="input-group-addon labelstyle" id="sizing-addon1">Qualified Candidate:</span>
+          <input class="form-control labelstyle" name="qualifiedCandidate" aria-describedby="sizing-addon1" value="{{job.qualifiedCandidate}}" disabled>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
