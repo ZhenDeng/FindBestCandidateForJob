@@ -18,8 +18,8 @@ https://jobadder1.docs.apiary.io/#
  
 ## How to run
 
-1. in ClientApp folder, run npm install in PowerShell window
+1. Use Visual Code to open ClientApp folder, run npm install in console
 
 2. After packages installation finish, run ng build --watch
 
-3. run project in Visual Studios
+3. Build and run project in Visual Studios
